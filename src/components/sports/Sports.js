@@ -1,5 +1,4 @@
 import './sport.css'
-import 'antd/dist/antd.css';
 import sportsData from '../../data/sportsData'
 import { Card } from 'antd'
 const { Meta } = Card
