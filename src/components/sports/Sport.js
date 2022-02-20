@@ -20,7 +20,7 @@ export default function Sport() {
       >
         <Meta title={sport.title} />
       </Card>
-    ) : null
+    ) : <p>Please select a sport</p>
 
     return display
 }
@@ -28,3 +28,4 @@ export default function Sport() {
 // in a real app, I would useParams (the id in the url)
 // to fetch the data from an API
 // Reason: when you refresh the /sports/id page, you will get data
+    // currently, if you refresh the /sports/id route, no data exists

@@ -24,7 +24,8 @@ export default function Sports(){
           <ul>{sportLinks}</ul>
         </div>
         <div className="sports-main">
-          <Outlet context={[selectedSport, setSelectedSport]} />     {/* references the children routes of the Sports component */}        
+          <Outlet context={[selectedSport, setSelectedSport]} />     
+              {/* references the children routes of the Sports component */}        
         </div>
       </div>
     </div>
